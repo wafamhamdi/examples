@@ -4,16 +4,21 @@
   "description": "A compilation of serveral examples and boilerplates",
   "scripts": {
     "lint": "eslint .",
-    "docs": "node generate-readme.js"
+    "docs": "node generate-readme.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "license": "MIT",
   "dependencies": {
     "eslint": "^3.10.0",
     "eslint-config-airbnb-base": "^10.0.1",
     "eslint-plugin-import": "^2.2.0",
-    "markdown-magic": "^0.1.13"
+    "markdown-magic": "^0.1.13",
+    "serverless-azure-functions": "0.4.0",
+    "snyk": "^1.83.0"
   },
   "devDependencies": {
     "markdown-magic": "^0.1.20"
-  }
+  },
+  "snyk": true
 }
