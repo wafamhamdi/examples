@@ -5,7 +5,13 @@
   "main": "index.js",
   "author": "serverless.com",
   "license": "MIT",
-   "dependencies": {
-    "serverless-azure-functions": "^0.2.0"
-  }
+  "dependencies": {
+    "serverless-azure-functions": "^0.4.0",
+    "snyk": "^1.104.2"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
