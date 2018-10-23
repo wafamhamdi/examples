@@ -1,0 +1,15 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:minimatch:20160620':
+    - serverless-azure-functions > zip-folder > archiver > glob > minimatch:
+        patched: '2018-10-23T22:59:51.954Z'
+  'npm:tunnel-agent:20170305':
+    - serverless-azure-functions > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2018-10-23T22:59:51.954Z'
+    - serverless-azure-functions > azure-arm-resource > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2018-10-23T22:59:51.954Z'
+    - serverless-azure-functions > azure-arm-resource > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2018-10-23T22:59:51.954Z'
