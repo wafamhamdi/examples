@@ -1,0 +1,30 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - serverless-azure-functions > lodash:
+        patched: '2020-05-01T00:00:26.834Z'
+    - serverless-azure-functions > async > lodash:
+        patched: '2020-05-01T00:00:26.834Z'
+    - serverless-azure-functions > az-login > inquirer > lodash:
+        patched: '2020-05-01T00:00:26.834Z'
+    - serverless-azure-functions > az-login > ms-rest-azure > async > lodash:
+        patched: '2020-05-01T00:00:26.834Z'
+    - serverless-azure-functions > az-login > azure-arm-authorization > ms-rest-azure > async > lodash:
+        patched: '2020-05-01T00:00:26.834Z'
+    - serverless-azure-functions > az-login > azure-graph > ms-rest-azure > async > lodash:
+        patched: '2020-05-01T00:00:26.834Z'
+    - serverless-azure-functions > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2020-05-01T00:00:26.834Z'
+    - serverless-azure-functions > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2020-05-01T00:00:26.834Z'
+    - serverless-azure-functions > ms-rest-azure > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2020-05-01T00:00:26.834Z'
+    - serverless-azure-functions > azure-arm-resource > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2020-05-01T00:00:26.834Z'
+    - serverless-azure-functions > azure-arm-resource > ms-rest-azure > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2020-05-01T00:00:26.834Z'
+    - serverless-azure-functions > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2020-05-01T00:00:26.834Z'
