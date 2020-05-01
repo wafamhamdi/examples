@@ -15,10 +15,16 @@
   "author": "jonatasbaldin",
   "license": "MIT",
   "dependencies": {
-    "serverless-python-requirements": "^3.0.9"
+    "serverless-python-requirements": "^3.0.9",
+    "snyk": "^1.316.1"
   },
   "bugs": {
     "url": "https://github.com/jonatasbaldin/serverless-telegram-bot/issues"
   },
-  "homepage": "https://github.com/jonatasbaldin/serverless-telegram-bot#readme"
+  "homepage": "https://github.com/jonatasbaldin/serverless-telegram-bot#readme",
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
