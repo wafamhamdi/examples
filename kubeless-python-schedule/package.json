@@ -4,7 +4,7 @@
   "description": "This example demonstrates how to setup a simple Python function with Kubeless",
   "dependencies": {
     "bluebird": "^3.5.0",
-    "kubernetes-client": "^3.10.1",
+    "kubernetes-client": "^6.0.0",
     "serverless-kubeless": "^0.2.0"
   },
   "main": "handler.py",
