@@ -6,6 +6,6 @@
   "author": "serverless.com",
   "license": "MIT",
    "dependencies": {
-    "serverless-azure-functions": "^0.2.0"
+    "serverless-azure-functions": "^1.0.0"
   }
 }
